@@ -1,0 +1,40 @@
+{
+  "name": "asura",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir ./ --ignore \"**/*.test.js\"",
+    "cleanup": "rm *.js",
+    "postpublish": "npm run cleanup",
+    "test": "mocha --require \"test/init.test.js\" \"src/**/*.test.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format-check": "prettier --list-different \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laszlokardinal/asura.git"
+  },
+  "author": "László Kardinál",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laszlokardinal/asura/issues"
+  },
+  "homepage": "https://github.com/laszlokardinal/asura#readme",
+  "dependencies": {
+    "setimmediate": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/plugin-syntax-pipeline-operator": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-stage-0": "^7.0.0-beta.34",
+    "@babel/register": "^7.0.0-beta.34",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "prettier": "^1.9.0",
+    "sinon": "^4.0.1"
+  }
+}
