@@ -12,4 +12,5 @@
 ### transformation operators
 
 [map(callback)](src/map.md)<br />
+[scan(callback, accumulator?)](src/scan.md)<br />
 
