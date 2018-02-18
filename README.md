@@ -20,6 +20,7 @@
 
 ### static topological operators
 
+[merge(...sources)](src/merge.md)<br />
 [split(choice, length?)](src/split.md)<br />
 [combine(...sources)](src/combine.md)<br />
 [combineWith(...sources)](src/combineWith.md)<br />
