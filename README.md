@@ -31,4 +31,5 @@
 
 [invoke(callback)](src/invoke.md)<br />
 [invokeBefore(callback)](src/invokeBefore.md)<br />
+[invokeAfter(callback)](src/invokeAfter.md)<br />
 
