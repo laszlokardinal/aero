@@ -30,4 +30,5 @@
 ### invocation
 
 [invoke(callback)](src/invoke.md)<br />
+[invokeBefore(callback)](src/invokeBefore.md)<br />
 
