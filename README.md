@@ -9,3 +9,7 @@
 [filter(predicate?)](src/filter.md)<br />
 [distinct({ selector, comparator })](src/distinct.md)<br />
 
+### transformation operators
+
+[map(callback)](src/map.md)<br />
+
