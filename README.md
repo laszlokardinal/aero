@@ -27,3 +27,7 @@
 [combineWith(...sources)](src/combineWith.md)<br />
 [divide(length?)](src/divide.md)<br />
 
+### invocation
+
+[invoke(callback)](src/invoke.md)<br />
+
