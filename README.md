@@ -21,5 +21,6 @@
 ### static topological operators
 
 [split(choice, length?)](src/split.md)<br />
+[combine(...sources)](src/combine.md)<br />
 [divide(length?)](src/divide.md)<br />
 
