@@ -18,3 +18,7 @@
 [map(callback)](src/map.md)<br />
 [scan(callback, accumulator?)](src/scan.md)<br />
 
+### static topological operators
+
+[split(choice, length?)](src/split.md)<br />
+
