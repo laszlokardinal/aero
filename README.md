@@ -9,6 +9,7 @@
 [filter(predicate?)](src/filter.md)<br />
 [filterBy(key, value|values)](src/filterBy.md)<br />
 [distinct({ selector, comparator })](src/distinct.md)<br />
+[take(count)](src/take.md)<br />
 [at(index)](src/at.md)<br />
 
 ### transformation operators
