@@ -22,5 +22,6 @@
 
 [split(choice, length?)](src/split.md)<br />
 [combine(...sources)](src/combine.md)<br />
+[combineWith(...sources)](src/combineWith.md)<br />
 [divide(length?)](src/divide.md)<br />
 
