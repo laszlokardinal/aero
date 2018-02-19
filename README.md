@@ -33,3 +33,7 @@
 [invokeBefore(callback)](src/invokeBefore.md)<br />
 [invokeAfter(callback)](src/invokeAfter.md)<br />
 
+### helpers
+
+[log(prefix, { serializer });](src/log.md)<br />
+
