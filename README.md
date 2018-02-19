@@ -4,6 +4,10 @@
 
 [createObservable](src/createObservable.md)<br />
 
+### sources
+
+[tick(scheduler, { start$, stop$ })](src/tick.md)<br />
+
 ### filtering operators
 
 [filter(predicate?)](src/filter.md)<br />
