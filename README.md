@@ -35,5 +35,6 @@
 
 ### helpers
 
+[assign(target, mapOrKey?);](src/assign.md)<br />
 [log(prefix, { serializer });](src/log.md)<br />
 
