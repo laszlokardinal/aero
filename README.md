@@ -36,6 +36,7 @@
 ### schedulers
 
 [immediateScheduler()](src/immediateScheduler.md)<br />
+[intervalScheduler(timeInMs)](src/intervalScheduler.md)<br />
 [animationFrameScheduler()](src/animationFrameScheduler.md)<br />
 
 ### helpers
