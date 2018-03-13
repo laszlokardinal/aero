@@ -33,6 +33,10 @@
 [invokeBefore(callback)](src/invokeBefore.md)<br />
 [invokeAfter(callback)](src/invokeAfter.md)<br />
 
+### schedulers
+
+[animationFrameScheduler()](src/animationFrameScheduler.md)<br />
+
 ### helpers
 
 [assign(target, mapOrKey?);](src/assign.md)<br />
