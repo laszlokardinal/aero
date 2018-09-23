@@ -1,6 +1,6 @@
 # map operator
 
-`map(callback)(scan) -> subscribe function`
+`map(callback)(source) -> subscribe function`
 
 Applies the callback function on each action then
 emits the result.

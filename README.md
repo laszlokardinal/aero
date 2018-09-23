@@ -20,6 +20,7 @@
 ### transformation operators
 
 [map(callback)](src/map.md)<br />
+[select(callback)](src/select.md)<br />
 [scan(callback, accumulator?)](src/scan.md)<br />
 
 ### static topological operators
@@ -31,7 +32,23 @@
 [combineWith(...sources)](src/combineWith.md)<br />
 [divide(length?)](src/divide.md)<br />
 
-### invocation
+### dynamic topological operators
+
+[fork(predicate, callback)](src/fork.md)<br />
+[forkBy(forkSource, callback)](src/forkBy.md)<br />
+[gate(choice, initialState?)](src/gate.md)<br />
+[gateBy(onSource, offSource, initialState?)](src/gateBy.md)<br />
+[detach(choice)](src/detach.md)<br />
+[detachBy(detachSource, predicate)](src/detachBy.md)<br />
+
+### timing operators
+
+[delay(timeInMs)](src/delay.md)<br />
+[debounce(timeInMs)](src/debounce.md)<br />
+[throttle(scheduler)](src/throttle.md)<br />
+[buffer(scheduler)](src/buffer.md)<br />
+
+### function invocation operators
 
 [invoke(callback)](src/invoke.md)<br />
 [invokeBefore(callback)](src/invokeBefore.md)<br />
@@ -48,3 +65,8 @@
 [assign(target, mapOrKey?);](src/assign.md)<br />
 [log(prefix, { serializer });](src/log.md)<br />
 
+### operator composition
+
+[join(operators)](src/join.md)<br />
+[arrange(operators)](src/arrange.md)<br />
+[interconnect(operators)](src/interconnect.md)<br />

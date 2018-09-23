@@ -9,8 +9,10 @@
     "cleanup": "rm *.js",
     "postpublish": "npm run cleanup",
     "test": "mocha --require \"test/init.test.js\" \"src/**/*.test.{js,jsx}\"",
+    "test:watch": "npx onchange \"src/**/*.{js,jsx}\" -- sh -c 'clear; mocha --require \"test/init.test.js\" `node -p \"process.argv[1].replace(/^(.*?)(?:\\.test)?(\\.jsx?)$/,\\\"\\\\$1.test\\\\$2\\\")\" {{changed}}`'",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "format-check": "prettier --list-different \"src/**/*.{js,jsx}\""
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx}\"",
+    "format:watch": "npx onchange \"src/**/*.{js,jsx}\" -- sh -c 'clear; npx prettier --write {{changed}};'"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,7 @@
     "@babel/register": "^7.0.0-beta.34",
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
+    "onchange": "^4.1.0",
     "prettier": "^1.9.0",
     "sinon": "^4.0.1"
   }
